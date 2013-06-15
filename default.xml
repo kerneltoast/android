@@ -41,6 +41,7 @@
   <!-- <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" /> -->
   <project path="device/htc/msm8660-common" name="sultanxda/android_device_htc_msm8660-common" />
   <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" />
+  <project path="device/htc/holiday" name="sultanxda/android_device_htc_holiday" />
   <!-- <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" /> -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
@@ -305,7 +306,7 @@
   <project path="packages/apps/Phone" name="Team-Hydra/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="sultanxda/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
