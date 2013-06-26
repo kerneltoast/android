@@ -35,12 +35,6 @@
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
-  <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" />
-  <project path="device/generic/x86" name="CyanogenMod/android_device_generic_x86" />
-  <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
-  <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
-  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" />
@@ -48,6 +42,9 @@
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" />
   <project path="external/antlr" name="CyanogenMod/android_external_antlr" />
+  <project path="vendor/samsung/venturi_usa" name="JackpotClavin/android_vendor_samsung_venturi_usa" remote="github" revision="cm-10.1"/>
+  <project path="device/samsung/venturi_usa" name="sultanxda/android_device_samsung_venturi_usa" remote="github" revision="cm-10.1"/>
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1"/>
   <project path="external/apache-harmony" name="CyanogenMod/android_external_apache-harmony" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
   <project path="external/apache-qp" name="CyanogenMod/android_external_apache-qp" />
@@ -93,14 +90,12 @@
   <project path="external/gcc-demangle" name="CyanogenMod/android_external_gcc-demangle" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
   <project path="external/giflib" name="CyanogenMod/android_external_giflib" />
-  <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/google-diff-match-patch" name="CyanogenMod/android_external_google-diff-match-patch" />
   <project path="external/grub" name="CyanogenMod/android_external_grub" />
   <project path="external/gtest" name="CyanogenMod/android_external_gtest" />
   <project path="external/guava" name="CyanogenMod/android_external_guava" />
   <project path="external/hamcrest" name="CyanogenMod/android_external_hamcrest" />
   <project path="external/harfbuzz" name="CyanogenMod/android_external_harfbuzz" />
-  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/hyphenation" name="CyanogenMod/android_external_hyphenation" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" />
@@ -277,7 +272,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <!-- <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" /> -->
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
@@ -337,15 +332,15 @@
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <!-- <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.2.2_r1" /> -->
+  <!-- <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.2.2_r1" /> -->
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <!-- <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.2.2_r1" /> -->
+  <!-- <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.2.2_r1" /> -->
+  <!-- <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.2.2_r1" /> -->
+  <!-- <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.2.2_r1" /> -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
