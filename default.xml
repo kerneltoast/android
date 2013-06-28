@@ -96,6 +96,7 @@
   <project path="external/guava" name="CyanogenMod/android_external_guava" />
   <project path="external/hamcrest" name="CyanogenMod/android_external_hamcrest" />
   <project path="external/harfbuzz" name="CyanogenMod/android_external_harfbuzz" />
+  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" /> 
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/hyphenation" name="CyanogenMod/android_external_hyphenation" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" />
@@ -213,7 +214,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="Team-Hydra/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -291,7 +292,7 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="Team-Hydra/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
