@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="sultanxda/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
