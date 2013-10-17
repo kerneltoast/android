@@ -25,7 +25,6 @@
 
   <project name="sultanxda/android_vendor_asus_grouper" path="vendor" remote="github" revision="master" />
   <project name="sultanxda/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-10.2" />
-  <project name="sultanxda/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-10.2" />
   <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-10.2" />
   <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
