@@ -21,13 +21,11 @@
 
  <!--Custom versions of generic repositories-->
   <project path="packages/providers/MediaProvider" name="sultanxda/android_packages_providers_MediaProvider" />
-  <project path="frameworks/native" name="sultanxda/android_frameworks_native" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="sultanxda/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio-caf" name="sultanxda/android_hardware_qcom_audio-caf" groups="caf" />
 
  <!--Repositories to remove-->
   <remove-project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
-  <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
 
