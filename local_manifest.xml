@@ -19,16 +19,19 @@
  <!--Extra repositories-->
   <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="github" revision="master"/>
 
- <!--Custom versions of generic repositories-->
-  <project path="packages/providers/MediaProvider" name="sultanxda/android_packages_providers_MediaProvider" />
-  <project path="hardware/libhardware_legacy" name="sultanxda/android_hardware_libhardware_legacy" groups="pdk" />
-  <project path="hardware/qcom/audio-caf" name="sultanxda/android_hardware_qcom_audio-caf" groups="caf" />
-
  <!--Repositories to remove-->
-  <remove-project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
-  <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
+  <remove-project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
 
+ <!--Custom versions of generic repositories-->
+  <project path="frameworks/base" name="sultanxda/android_frameworks_base" />
+  <project path="frameworks/native" name="sultanxda/android_frameworks_native" />
+  <project path="hardware/qcom/audio-caf" name="sultanxda/android_hardware_qcom_audio-caf" groups="caf" />
+  <project path="packages/providers/MediaProvider" name="sultanxda/android_packages_providers_MediaProvider" />
+
+ <!--More repositories to remove-->
   <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <remove-project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
   <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
