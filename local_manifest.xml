@@ -19,14 +19,6 @@
  <!--Extra repositories-->
   <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="github" revision="master"/>
 
- <!--Repositories to remove-->
-  <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
-  <remove-project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
-
- <!--Custom versions of generic repositories-->
-  <project path="hardware/qcom/audio-caf" name="sultanxda/android_hardware_qcom_audio-caf" groups="caf" />
-  <project path="packages/providers/MediaProvider" name="sultanxda/android_packages_providers_MediaProvider" />
-
  <!--More repositories to remove-->
   <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <remove-project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
