@@ -2,16 +2,18 @@
 <manifest>
 
  <!--Device-specific repositories-->
+  <project path="device/htc/msm8660-common" name="sultanxda/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
+  <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-10.2" />
+  <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="sultanxda/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="sultanxda/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+
   <project name="sultanxda/android_vendor_asus_grouper" path="vendor" remote="github" revision="master" />
   <project name="sultanxda/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-10.2" />
-  <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-10.2" />
-  <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="github" revision="cm-10.2" />
+
   <project path="vendor/samsung/venturi" name="iurnait/android_vendor_samsung_venturi" remote="github" revision="cm-10.2" />
   <project path="device/samsung/venturi" name="iurnait/android_device_samsung_venturi" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
-  <project path="device/htc/msm8660-common" name="sultanxda/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/display-legacy" name="sultanxda/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy" name="sultanxda/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
 
  <!--Custom (modified) generic repositories-->
   <project path="frameworks/av" name="sultanxda/android_frameworks_av" groups="pdk" />
