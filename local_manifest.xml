@@ -11,7 +11,7 @@
 
  <!--Custom (modified) generic repositories-->
   <remove-project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
-  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" remote="github" revision="cm-11.0-old" />
+  <project path="packages/apps/Camera2" name="sultanxda/android_packages_apps_Camera2" remote="github" revision="cm-11.0-old" />
 
  <!--Linaro toolchain-->
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="github" revision="2014.01" />
