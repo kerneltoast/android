@@ -2,7 +2,7 @@
 <manifest>
 
  <!--Device-specific repositories-->
-  <project path="kernel/htc/pyramid" name="sultanxda/sultan-kernel-pyramid" remote="github" revision="master" />
+  <project path="kernel/htc/pyramid" name="sultanxda/sultan-kernel-pyramid-pure" remote="github" revision="cm-11.0" />
   <project path="device/htc/msm8660-common" name="sultanxda/android_device_htc_msm8660-common" remote="github" revision="cm-11.0" />
   <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-11.0" />
   <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="github" revision="cm-11.0" />
@@ -12,9 +12,12 @@
   <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <remove-project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
   <remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
+
   <project path="packages/apps/Camera2" name="sultanxda/android_packages_apps_Camera2" remote="github" revision="cm-11.0-old" />
   <project path="frameworks/av" name="sultanxda/android_frameworks_av" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/media-caf" name="sultanxda/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0" />
+
+ <!--Custom (modified) Qcom HALs-->
+  <project path="hardware/qcom/media-legacy" name="sultanxda/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="sultanxda/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" />
 
  <!--Extra repositories-->
