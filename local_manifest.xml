@@ -2,27 +2,31 @@
 <manifest>
 
  <!--Device-specific repositories-->
-  <project path="kernel/htc/pyramid" name="sultanxda/sultan-kernel-pyramid" remote="github" revision="master" />
+  <project path="kernel/htc/pyramid" name="sultanxda/sultan-kernel-pyramid-pure" remote="github" revision="cm-10.2" />
   <project path="device/htc/msm8660-common" name="sultanxda/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
   <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-10.2" />
   <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="github" revision="cm-10.2" />
 
- <!--Custom (modified) generic repositories-->
+ <!--Generic repositories to be replaced-->
   <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <remove-project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <remove-project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
-  <remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
+
+ <!--Custom (modified) generic repositories-->
   <project path="frameworks/av" name="sultanxda/android_frameworks_av" remote="github" revision="cm-10.2" />
   <project path="packages/apps/Gallery2" name="sultanxda/android_packages_apps_Gallery2" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/media-caf" name="sultanxda/android_hardware_qcom_media-caf" remote="github" revision="cm-10.2" />
+
+ <!--Custom (modified) Qcom HALs-->
+  <project path="hardware/qcom/media-legacy" name="sultanxda/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/display-caf" name="sultanxda/android_hardware_qcom_display-caf" remote="github" revision="cm-10.2" />
 
  <!--Extra repositories-->
   <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="github" revision="master"/>
 
- <!--Repositories to remove-->
+ <!--Unused repositories to remove-->
   <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
+  <remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
   <remove-project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
