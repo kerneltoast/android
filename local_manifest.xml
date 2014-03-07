@@ -16,7 +16,7 @@
   <project path="frameworks/av" name="sultanxda/android_frameworks_av" remote="github" revision="cm-11.0" />
 
  <!--Custom (modified) Qcom HALs-->
-  <project path="hardware/qcom/media-caf" name="sultanxda/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="sultanxda/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="sultanxda/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" />
 
  <!--Extra repositories-->
