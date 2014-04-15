@@ -2,7 +2,7 @@
 <manifest>
 
  <!--Device-specific repositories-->
-  <project path="device/samsung/qcom-common" name="sultanxda/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/msm8660-common" name="sultanxda/android_device_samsung_msm8660-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/celox-common" name="sultanxda/android_device_samsung_celox-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/skyrocket" name="sultanxda/android_device_samsung_skyrocket" remote="github" revision="cm-11.0" />
