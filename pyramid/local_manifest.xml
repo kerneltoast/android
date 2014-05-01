@@ -6,17 +6,6 @@
   <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-11.0" />
   <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="github" revision="cm-11.0" />
 
- <!--Custom (modified) generic repositories-->
-  <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <remove-project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
-  <remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
-
-  <project path="frameworks/av" name="sultanxda/android_frameworks_av" remote="github" revision="cm-11.0" />
-
- <!--Custom (modified) Qcom HALs-->
-  <project path="hardware/qcom/media-legacy" name="sultanxda/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/display-caf" name="sultanxda/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" />
-
  <!--Extra repositories-->
   <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="github" revision="master"/>
 
