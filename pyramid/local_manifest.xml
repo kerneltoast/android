@@ -2,8 +2,8 @@
 <manifest>
 
  <!--Device-specific repositories-->
-  <project path="kernel/htc/pyramid" name="sultanxda/sultan-kernel-pyramid-pure-CAF-3.4" remote="github" revision="cm-11.0" />
-  <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/pyramid" name="sultanxda/sultan-kernel-pyramid-pure" remote="github" revision="cm-11.0" />
+  <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-11.0_3.0" />
   <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="github" revision="cm-11.0" />
 
  <!--Extra repositories-->
