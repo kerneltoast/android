@@ -6,9 +6,6 @@
   <project path="device/htc/pyramid" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-11.0_3.0" />
   <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="github" revision="cm-11.0" />
 
- <!--Extra repositories-->
-  <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="github" revision="master"/>
-
  <!--Repositories to remove-->
   <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
