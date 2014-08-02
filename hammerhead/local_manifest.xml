@@ -2,8 +2,8 @@
 <manifest>
 
  <!--Device-specific repositories-->
-  <project path="kernel/lge/hammerhead" name="sultanxda/sultan-kernel-pyramid-pure" remote="github" revision="cm-11.0-mdss" />
-  <project path="device/lge/hammerhead" name="sultanxda/android_device_htc_pyramid" remote="github" revision="cm-11.0" />
+  <project path="kernel/lge/hammerhead" name="sultanxda/sultan-kernel-hammerhead" remote="github" revision="cm-11.0-mdss" />
+  <project path="device/lge/hammerhead" name="sultanxda/android_device_lge_hammerhead" remote="github" revision="cm-11.0" />
   <project path="vendor/lge" name="sultanxda/android_vendor_lge" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" groups="caf" />
   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" groups="caf" />
