@@ -7,8 +7,8 @@
   <project path="vendor/lge" name="sultanxda/android_vendor_lge" remote="github" revision="cm-11.0" />
 
  <!--Repositories to remove-->
-  <remove-project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display" groups="caf" />
-  <remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media" groups="caf" />
+  <remove-project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
+  <remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
   <remove-project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
