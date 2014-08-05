@@ -2,15 +2,13 @@
 <manifest>
 
  <!--Device-specific repositories-->
-  <project path="kernel/lge/hammerhead" name="sultanxda/sultan-kernel-hammerhead" remote="github" revision="cm-11.0-mdss" />
+  <project path="kernel/lge/hammerhead" name="sultanxda/sultan-kernel-hammerhead" remote="github" revision="cm-11.0" />
   <project path="device/lge/hammerhead" name="sultanxda/android_device_lge_hammerhead" remote="github" revision="cm-11.0" />
   <project path="vendor/lge" name="sultanxda/android_vendor_lge" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" groups="caf" />
-  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" groups="caf" />
 
  <!--Repositories to remove-->
-  <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
+  <remove-project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display" groups="caf" />
+  <remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media" groups="caf" />
   <remove-project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
