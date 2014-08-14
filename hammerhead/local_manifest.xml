@@ -5,6 +5,7 @@
   <project path="kernel/lge/hammerhead" name="sultanxda/sultan-kernel-hammerhead" remote="github" revision="cm-11.0" />
   <project path="device/lge/hammerhead" name="sultanxda/android_device_lge_hammerhead" remote="github" revision="cm-11.0" />
   <project path="vendor/lge" name="sultanxda/android_vendor_lge" remote="github" revision="cm-11.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-kk_3.5" name="sultanxda/android_hardware_qcom_display-caf-kk_3.5" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf-kk_3.5" name="sultanxda/android_hardware_qcom_media-caf-kk_3.5" remote="github" revision="cm-11.0" />
 
