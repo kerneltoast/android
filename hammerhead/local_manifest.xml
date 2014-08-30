@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <!--Repositories to be replaced-->
+  <remove-project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
 
  <!--Device-specific repositories-->
   <project path="kernel/lge/hammerhead" name="sultanxda/android_kernel_lge_hammerhead" remote="github" revision="kk_3.5-cm" />
@@ -10,8 +12,9 @@
   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" groups="caf" />
   <project path="hardware/qcom/display-caf-kk_3.5" name="sultanxda/android_hardware_qcom_display-caf-kk_3.5" remote="github" revision="kk_3.5-cm" />
   <project path="hardware/qcom/media-caf-kk_3.5" name="sultanxda/android_hardware_qcom_media-caf-kk_3.5" remote="github" revision="kk_3.5-cm" />
+  <project path="hardware/qcom/power" name="sultanxda/android_hardware_qcom_power" remote="github" revision="cm-11.0" />
 
- <!--Repositories to remove-->
+ <!--Unused repositories to remove-->
   <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <remove-project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
