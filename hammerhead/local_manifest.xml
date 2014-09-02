@@ -10,8 +10,6 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-new" name="sultanxda/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0"  />
   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" groups="caf" />
-  <project path="hardware/qcom/display-caf-kk_3.5" name="sultanxda/android_hardware_qcom_display-caf-kk_3.5" remote="github" revision="kk_3.5-cm" />
-  <project path="hardware/qcom/media-caf-kk_3.5" name="sultanxda/android_hardware_qcom_media-caf-kk_3.5" remote="github" revision="kk_3.5-cm" />
   <project path="hardware/qcom/power" name="sultanxda/android_hardware_qcom_power" remote="github" revision="cm-11.0" />
 
  <!--Unused repositories to remove-->
