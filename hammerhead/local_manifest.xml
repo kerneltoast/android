@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <!--Generic repos to be replaced by custom variants-->
+  <remove-project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
+
  <!--Device-specific repositories-->
-  <project path="kernel/lge/hammerhead" name="sultanxda/android_kernel_lge_hammerhead" remote="github" revision="kk_3.5-cm" />
+  <project path="kernel/lge/hammerhead" name="sultanxda/android_kernel_lge_hammerhead" remote="github" revision="cm-11.0" />
   <project path="device/lge/hammerhead" name="sultanxda/android_device_lge_hammerhead" remote="github" revision="cm-11.0" />
   <project path="vendor/lge" name="sultanxda/android_vendor_lge" remote="github" revision="cm-11.0" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-new" name="sultanxda/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0"  />
   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" groups="caf" />
+  <project path="hardware/qcom/camera" name="sultanxda/android_hardware_qcom_camera" remote="github" revision="cm-11.0" />
+
+ <!--Toolchain-->
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4w_r1" />
 
  <!--Unused repositories to remove-->
   <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
