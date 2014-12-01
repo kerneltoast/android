@@ -7,7 +7,7 @@
   <project path="device/samsung/celox-common" name="sultanxda/android_device_samsung_celox-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/hercules" name="sultanxda/android_device_samsung_hercules" remote="github" revision="cm-11.0" />
   <project path="device/samsung/skyrocket" name="sultanxda/android_device_samsung_skyrocket" remote="github" revision="cm-11.0" />
-  <project path="kernel/samsung/sultan-celox" name="sultanxda/sultan-kernel-celox-pure-3.0" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/sultan-celox" name="sultanxda/sultan-kernel-celox" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung" name="sultanxda/android_vendor_samsung_celox" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
 
