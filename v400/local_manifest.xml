@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.0" />
-  <project path="device/lge/v400" name="sultanxda/android_device_lge_v400" remote="github" revision="cm-12.0" />
-  <project path="device/lge/v4xx-common" name="sultanxda/android_device_lge_v4xx-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/lge/v4xx" name="sultanxda/android_kernel_lge_v4xx-caf" remote="github" revision="lg-lollipop-rb-caf" />
-  <project path="vendor/lge" name="sultanxda/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
+  <project path="device/lge/v400" name="sultanxda/android_device_lge_v400" remote="github" revision="cm-12.1" />
+  <project path="device/lge/v4xx-common" name="sultanxda/android_device_lge_v4xx-common" remote="github" revision="cm-12.1" />
+  <project path="kernel/lge/v4xx" name="sultanxda/android_kernel_lge_v4xx-caf" remote="github" revision="cm-12.1" />
+  <project path="vendor/lge" name="sultanxda/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
 
  <!--Repositories to remove-->
   <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
