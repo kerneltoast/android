@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="device/oneplus/bacon" name="sultanxda/android_device_oneplus_bacon" remote="github" revision="cm-12.1" />
+  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" remote="github" revision="cm-12.1" />
+  <project path="device/oppo/msm8974-common" name="sultanxda/android_device_oppo_msm8974-common" remote="github" revision="cm-12.1" />
+  <project path="device/qcom/common" name="sultanxda/android_device_qcom_common" remote="github" revision="cm-12.1" />
+  <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974" remote="github" revision="cm-12.1-caf" />
+  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-12.1" />
+  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-12.1" />
+
+ <!--Repositories to remove-->
+  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+</manifest>
