@@ -3,6 +3,7 @@
 
   <project path="device/lge/v400" name="sultanxda/android_device_lge_v400" remote="github" revision="cm-12.1" />
   <project path="device/lge/v4xx-common" name="sultanxda/android_device_lge_v4xx-common" remote="github" revision="cm-12.1" />
+  <project path="device/lge/v4xx-common/audio" name="sultanxda/android_hardware_qcom_audio" remote="github" revision="cm-12.1-caf" />
   <project path="device/lge/v4xx-common/display" name="sultanxda/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf" />
   <project path="device/lge/v4xx-common/media" name="sultanxda/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf" />
   <project path="device/qcom/common" name="sultanxda/android_device_qcom_common" remote="github" revision="cm-12.1-caf" />
