@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!--Repositories to replace-->
+  <remove-project name="android_hardware_ril" />
+
+ <!--Repositories to fetch-->
+  <project path="device/oppo/find7op" name="sultanxda/android_device_oppo_find7op" remote="github" revision="android-5.1" />
+  <project path="device/oppo/msm8974-common" name="sultanxda/android_device_oppo_msm8974-common" remote="github" revision="android-5.1" />
+  <project path="hardware/qcom/audio-caf-bfam" name="sultanxda/android_hardware_qcom_audio" remote="github" revision="android-5.1" />
+  <project path="hardware/qcom/display-caf-bfam" name="sultanxda/android_hardware_qcom_display" remote="github" revision="android-5.1" />
+  <project path="hardware/qcom/media-caf-bfam" name="sultanxda/android_hardware_qcom_media" remote="github" revision="android-5.1" />
+  <project path="hardware/ril" name="sultanxda/android_hardware_ril" remote="github" revision="android-5.1" />
+  <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974" remote="github" revision="android-5.1" />
+  <project path="vendor/oppo" name="sultanxda/proprietary_vendor_oppo" remote="github" revision="android-5.1" />
+
+ <!--Repositories to remove-->
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+</manifest>
