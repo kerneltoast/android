@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!--Repositories to replace-->
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+
+ <!--Repositories to fetch-->
   <project path="device/lge/v400" name="sultanxda/android_device_lge_v400" remote="github" revision="cm-12.1" />
   <project path="device/lge/v4xx-common" name="sultanxda/android_device_lge_v4xx-common" remote="github" revision="cm-12.1" />
-  <project path="device/lge/v4xx-common/audio" name="sultanxda/android_hardware_qcom_audio" remote="github" revision="cm-12.1-caf" />
-  <project path="device/lge/v4xx-common/display" name="sultanxda/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf" />
-  <project path="device/lge/v4xx-common/media" name="sultanxda/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf" />
-  <project path="device/qcom/common" name="sultanxda/android_device_qcom_common" remote="github" revision="cm-12.1-caf" />
+  <project path="hardware/qcom/audio-caf/msm8226" name="sultanxda/android_hardware_qcom_audio" revision="cm-12.1-caf" />
+  <project path="hardware/qcom/display-caf/msm8226" name="sultanxda/android_hardware_qcom_display" revision="cm-12.1-caf" />
+  <project path="hardware/qcom/media-caf/msm8226" name="sultanxda/android_hardware_qcom_media" revision="cm-12.1-caf" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
   <project path="kernel/lge/v4xx" name="sultanxda/android_kernel_lge_v400" remote="github" revision="cm-12.1" />
   <project path="vendor/lge" name="sultanxda/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
 
