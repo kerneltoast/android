@@ -3,7 +3,6 @@
 
  <!--Repositories to replace-->
   <remove-project name="android_hardware_ril" />
-  <remove-project name="android_frameworks_av" />
 
  <!--Repositories to fetch-->
   <project path="device/oppo/find7op" name="sultanxda/android_device_oppo_find7op" remote="github" revision="android-5.1" />
