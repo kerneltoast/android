@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
+  <project path="patcher" name="sultanxda/patcher" revision="stable/cm-12.1-bacon" />
+
  <!--Repositories to replace-->
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
