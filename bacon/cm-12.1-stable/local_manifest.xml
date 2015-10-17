@@ -12,7 +12,7 @@
 
  <!--Repositories to fetch-->
   <project path="device/oneplus/bacon" name="sultanxda/android_device_oneplus_bacon" revision="cm-12.1-caf" />
-  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="stable/cm-12.1-YOG4P" />
+  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="stable/cm-12.1-YOG7D" />
   <project path="device/oppo/msm8974-common" name="sultanxda/android_device_oppo_msm8974-common" revision="cm-12.1-caf" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
   <project path="hardware/qcom/audio-caf/msm8974" name="sultanxda/android_hardware_qcom_audio" revision="cm-12.1-caf" />
