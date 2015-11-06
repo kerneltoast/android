@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
+  <project path="patcher" name="sultanxda/patcher" revision="cm-13.0-bacon" />
+
+ <!--Repositories to replace-->
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+
+ <!--Repositories to fetch-->
+  <project path="device/oneplus/bacon" name="sultanxda/android_device_oneplus_bacon" revision="cm-13.0-caf" />
+  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="cm-13.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" />
+  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" revision="cm-13.0" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="sultanxda/android_hardware_qcom_audio" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/display-caf/msm8974" name="sultanxda/android_hardware_qcom_display" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/media-caf/msm8974" name="sultanxda/android_hardware_qcom_media" revision="cm-13.0-caf" />
+  <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974" revision="cm-13.0-caf" />
+  <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-13.0-bacon" />
+  <project path="packages/apps/SnapdragonCamera" name="sultanxda/android_packages_apps_SnapdragonCamera" revision="cm-13.0-caf" />
+  <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-13.0-caf" />
+
+ <!--Repositories to remove-->
+  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />  
+</manifest>
