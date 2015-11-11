@@ -14,6 +14,7 @@
   <project path="device/oneplus/bacon" name="sultanxda/android_device_oneplus_bacon" revision="cm-13.0-caf" />
   <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="cm-13.0" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" revision="cm-13.0" />
   <project path="external/sony/boringssl-compat" name="sultanxda/android_external_sony_boringssl-compat" revision="cm-13.0" />
   <project path="hardware/qcom/audio-caf/msm8974" name="sultanxda/android_hardware_qcom_audio" revision="cm-13.0-caf" />
   <project path="hardware/qcom/display-caf/msm8974" name="sultanxda/android_hardware_qcom_display" revision="cm-13.0-caf" />
