@@ -22,6 +22,7 @@
   <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-13.0-bacon" />
   <project path="packages/apps/SnapdragonCamera" name="sultanxda/android_packages_apps_SnapdragonCamera" revision="cm-13.0-caf" />
   <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-13.0-caf" />
+  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" revision="cm-13.0" />
 
  <!--Repositories to remove-->
   <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
