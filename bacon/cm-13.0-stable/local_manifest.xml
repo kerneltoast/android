@@ -10,12 +10,14 @@
   <remove-project name="CyanogenMod/android_packages_apps_ExactCalculator" />
   <remove-project name="CyanogenMod/android_packages_services_LiveLockScreenService" />
   <remove-project name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <remove-project name="CyanogenMod/android_prebuilts_cmsdk" />
 
   <project path="packages/apps/AudioFX" name="sultanxda/android_packages_apps_AudioFX" revision="cm-13.0" />
   <project path="packages/apps/Eleven" name="sultanxda/android_packages_apps_Eleven" revision="cm-13.0" />
   <project path="packages/apps/ExactCalculator" name="sultanxda/android_packages_apps_ExactCalculator" revision="cm-13.0" />
   <project path="packages/services/LiveLockScreenService" name="sultanxda/android_packages_services_LiveLockScreenService" revision="cm-13.0" />
   <project path="packages/apps/ThemeChooser" name="sultanxda/android_packages_apps_ThemeChooser" revision="cm-13.0" />
+  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" />
 
  <!--Repositories to replace-->
   <remove-project name="CyanogenMod/android_hardware_ril" />
