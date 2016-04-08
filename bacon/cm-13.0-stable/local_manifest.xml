@@ -4,33 +4,20 @@
  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
   <project path="patcher" name="sultanxda/patcher" revision="stable/cm-13.0-bacon" />
 
- <!--Repositories not yet branched to stable/cm-13.0-ZNH2K (TEMPORARY) -->
-  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
-  <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
-  <remove-project name="CyanogenMod/android_packages_apps_ExactCalculator" />
-  <remove-project name="CyanogenMod/android_packages_services_LiveLockScreenService" />
-  <remove-project name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <remove-project name="CyanogenMod/android_prebuilts_cmsdk" />
-
-  <project path="packages/apps/AudioFX" name="sultanxda/android_packages_apps_AudioFX" revision="cm-13.0" />
-  <project path="packages/apps/Eleven" name="sultanxda/android_packages_apps_Eleven" revision="cm-13.0" />
-  <project path="packages/apps/ExactCalculator" name="sultanxda/android_packages_apps_ExactCalculator" revision="cm-13.0" />
-  <project path="packages/services/LiveLockScreenService" name="sultanxda/android_packages_services_LiveLockScreenService" revision="cm-13.0" />
-  <project path="packages/apps/ThemeChooser" name="sultanxda/android_packages_apps_ThemeChooser" revision="cm-13.0" />
-  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" />
-
  <!--Repositories to replace-->
-  <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Snap" />
+  <remove-project name="CyanogenMod/android_prebuilts_cmsdk" />
 
  <!--Repositories to fetch-->
   <!--Upstream-->
   <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="stable/cm-13.0-ZNH2K" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="stable/cm-13.0-ZNH2K" />
+  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" />
 
   <!--Custom-->
   <project path="device/oneplus/bacon" name="sultanxda/android_device_oneplus_bacon" revision="cm-13.0-caf" />
