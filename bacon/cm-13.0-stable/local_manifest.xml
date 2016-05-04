@@ -11,11 +11,13 @@
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Snap" />
+  <remove-project name="CyanogenMod/android_prebuilts_cmsdk" />
 
  <!--Repositories to fetch-->
   <!--Upstream-->
   <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="stable/cm-13.0-ZNH2K" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="stable/cm-13.0-ZNH2K" />
+  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" />
 
   <!--Custom-->
   <project path="device/oneplus/bacon" name="sultanxda/android_device_oneplus_bacon" revision="cm-13.0-caf" />
