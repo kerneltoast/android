@@ -10,12 +10,14 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_Screencast" />
   <remove-project name="CyanogenMod/android_packages_apps_Snap" />
 
  <!--Repositories to fetch-->
   <!--Upstream-->
   <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="stable/cm-13.0-ZNH2K" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="stable/cm-13.0-ZNH2K" />
+  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" revision="cm-13.0" />
 
   <!--Custom-->
   <project path="device/oneplus/bacon" name="sultanxda/android_device_oneplus_bacon" revision="cm-13.0-caf" />
