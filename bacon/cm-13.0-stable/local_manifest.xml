@@ -10,6 +10,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
   <remove-project name="CyanogenMod/android_packages_apps_Screencast" />
   <remove-project name="CyanogenMod/android_packages_apps_Snap" />
 
@@ -17,6 +18,7 @@
   <!--Upstream-->
   <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="stable/cm-13.0-ZNH2K" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="stable/cm-13.0-ZNH2K" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" revision="cm-13.0" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" revision="cm-13.0" />
 
   <!--Custom-->
