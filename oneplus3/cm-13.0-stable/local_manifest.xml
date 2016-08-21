@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
+  <project path="patcher" name="sultanxda/patcher" revision="stable/cm-13.0-oneplus3" />
+
+ <!--Repositories to replace-->
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
+  <remove-project name="CyanogenMod/android_packages_apps_Screencast" />
+  <remove-project name="CyanogenMod/android_packages_apps_Snap" />
+
+ <!--Repositories to fetch-->
+  <!--Upstream-->
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" revision="cm-13.0" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" revision="cm-13.0" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" revision="cm-13.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="stable/cm-13.0-ZNH2K" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" revision="cm-13.0" />
+  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" revision="cm-13.0" />
+
+  <!--Custom-->
+  <project path="device/oneplus/oneplus3" name="sultanxda/android_device_oneplus_oneplus3" revision="cm-13.0-sultan" />
+  <project path="device/oppo/common" name="sultanxda/android_device_oppo_common" revision="cm-13.0" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="sultanxda/android_hardware_qcom_audio" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8996" name="sultanxda/android_hardware_qcom_display" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8996" name="sultanxda/android_hardware_qcom_media" revision="cm-13.0-caf-8996" />
+  <project path="kernel/oneplus/msm8996" name="sultanxda/android_kernel_oneplus_msm8996" revision="cm-13.0-sultan" />
+  <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-13.0-sultan" />
+  <project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" revision="cm-13.0-sultan" />
+  <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-13.0-sultan" />
+
+ <!--Repositories to remove-->
+  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+</manifest>
