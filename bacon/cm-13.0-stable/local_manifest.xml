@@ -29,7 +29,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="sultanxda/android_hardware_qcom_media" revision="cm-13.0-caf" />
   <project path="hardware/ril-caf" name="sultanxda/android_hardware_ril" revision="cm-13.0-legacy" />
   <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974" revision="cm-13.0-caf" />
-  <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="stable/cm-13.0-bacon" />
+  <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-13.0-sultan" />
   <project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" revision="cm-13.0-sultan" />
   <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-13.0-sultan" />
 
