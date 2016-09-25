@@ -16,8 +16,8 @@
 
  <!--Repositories to fetch-->
   <!--Upstream-->
-  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="stable/cm-13.0-ZNH2K" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="stable/cm-13.0-ZNH2K" />
+  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="stable/cm-13.0-ZNH5Y" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="stable/cm-13.0-ZNH5Y" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" revision="cm-13.0" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" revision="cm-13.0" />
 
