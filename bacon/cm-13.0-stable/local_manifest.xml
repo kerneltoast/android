@@ -13,6 +13,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
   <remove-project name="CyanogenMod/android_packages_apps_Screencast" />
   <remove-project name="CyanogenMod/android_packages_apps_Snap" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
  <!--Repositories to fetch-->
   <!--Upstream-->
@@ -20,6 +21,7 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="stable/cm-13.0-ZNH5Y" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" revision="cm-13.0" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" revision="cm-13.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
 
   <!--Custom-->
   <project path="device/oneplus/bacon" name="sultanxda/android_device_oneplus_bacon" revision="cm-13.0-caf" />
