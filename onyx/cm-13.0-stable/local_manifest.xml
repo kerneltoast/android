@@ -31,7 +31,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="sultanxda/android_hardware_qcom_audio" revision="cm-13.0-caf" />
   <project path="hardware/qcom/display-caf/msm8974" name="sultanxda/android_hardware_qcom_display" revision="cm-13.0-caf" />
   <project path="hardware/qcom/media-caf/msm8974" name="sultanxda/android_hardware_qcom_media" revision="cm-13.0-caf" />
-  <project path="hardware/ril-caf" name="sultanxda/android_hardware_ril" revision="cm-13.0-legacy" />
+  <project path="hardware/ril-caf" name="sultanxda/android_hardware_ril" revision="cm-13.0-caf" />
   <project path="kernel/oneplus/onyx" name="sultanxda/android_kernel_oneplus_onyx" revision="cm-13.0-sultan" />
   <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-13.0-sultan" />
   <project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" revision="onyx/cm-13.0-sultan" />
