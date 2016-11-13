@@ -9,10 +9,10 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_ril" />
-  <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
   <remove-project name="CyanogenMod/android_packages_apps_Screencast" />
+  <remove-project name="CyanogenMod/android_packages_apps_Snap" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 
  <!--Repositories to fetch-->
@@ -34,7 +34,7 @@
   <project path="hardware/ril-caf" name="sultanxda/android_hardware_ril" revision="cm-13.0-caf-8996" />
   <project path="kernel/oneplus/msm8996" name="sultanxda/android_kernel_oneplus_msm8996" revision="cm-13.0-sultan" />
   <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-13.0-sultan" />
-  <project path="packages/apps/Camera2" name="sultanxda/android_packages_apps_Camera2" revision="oneplus3/cm-13.0-sultan" />
+  <project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" revision="oneplus3/cm-13.0-sultan" />
   <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-13.0-sultan" />
 
  <!--Repositories to remove-->
