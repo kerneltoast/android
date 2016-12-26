@@ -11,8 +11,11 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />  
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
+  <remove-project name="CyanogenMod/android_packages_apps_Email" />
+  <remove-project name="CyanogenMod/android_packages_apps_Messaging" />
   <remove-project name="CyanogenMod/android_packages_apps_Screencast" />
   <remove-project name="CyanogenMod/android_packages_apps_Snap" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
