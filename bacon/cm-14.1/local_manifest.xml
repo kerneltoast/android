@@ -7,6 +7,7 @@
  <!--Repositories to replace-->
   <remove-project name="LineageOS/android_hardware_qcom_camera" />
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
+  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
 
@@ -15,6 +16,7 @@
   <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
   <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
+  <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
 
