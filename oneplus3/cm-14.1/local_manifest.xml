@@ -35,6 +35,10 @@
   <project path="packages/apps/WeatherProviders" name="sultanxda/android_packages_apps_WeatherProviders" revision="cm-14.1" />
   <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-14.1-sultan" />
 
+  <!--WireGuard-->
+  <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+  <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
