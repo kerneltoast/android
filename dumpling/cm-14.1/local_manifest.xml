@@ -27,7 +27,7 @@
   <project name="sultanxda/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" revision="cm-14.1-sultan" />
   <project name="sultanxda/android_packages_apps_Snap" path="packages/apps/Snap" revision="oneplus5t/cm-14.1-sultan" />
   <project name="sultanxda/android_packages_apps_WeatherProviders" path="packages/apps/WeatherProviders" revision="cm-14.1" />
-  <project name="sultanxda/proprietary_vendor_oneplus" path="vendor/oneplus" revision="cm-14.1-sultan" />
+  <project name="sultanxda/vendor_oneplus" path="vendor/oneplus" revision="cm-14.1-sultan" />
 
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />

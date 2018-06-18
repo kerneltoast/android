@@ -21,7 +21,7 @@
   <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974" revision="cm-12.1-caf" />
   <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="stable/cm-12.1-bacon" />
   <project path="packages/apps/SnapdragonCamera" name="sultanxda/android_packages_apps_SnapdragonCamera" revision="cm-12.1-caf" />
-  <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-12.1-caf" />
+  <project path="vendor/oneplus" name="sultanxda/vendor_oneplus" revision="cm-12.1-caf" />
   <project path="vendor/oppo" name="sultanxda/proprietary_vendor_oppo" revision="cm-12.1-caf" />
 
  <!--Repositories to remove-->

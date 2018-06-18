@@ -39,7 +39,7 @@
   <project path="kernel/oneplus/onyx" name="sultanxda/android_kernel_oneplus_onyx" revision="cm-13.0-sultan" />
   <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-13.0-sultan" />
   <project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" revision="onyx/cm-13.0-sultan" />
-  <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-13.0-sultan" />
+  <project path="vendor/oneplus" name="sultanxda/vendor_oneplus" revision="cm-13.0-sultan" />
 
  <!--Repositories to remove-->
   <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
